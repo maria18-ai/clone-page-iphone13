@@ -1,6 +1,8 @@
+// utilizando DOM para ter acesso aos elementos do html
 const buttons = document.querySelectorAll("#image_picker li");
 const image = document.querySelector("#product_image");
 
+// bloco para a mudança da imagem do celular na tela
 buttons.forEach((btn) => {
     
     btn.addEventListener("click", (e) => {
